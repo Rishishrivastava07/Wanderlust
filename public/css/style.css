@@ -1,0 +1,113 @@
+body {
+  font-family: "Plus Jakarta Sans", serif !important;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar {
+  background-color: white;
+  height: 5rem;
+}
+
+.fa-compass {
+  color: #fe424d;
+  font-size: 2rem;
+}
+
+.nav-link {
+  color: #222222 !important;
+}
+
+.f-info-links a {
+  text-decoration: none;
+  color: #222222;
+}
+
+.f-info-links a:hover {
+  text-decoration: underline;
+}
+
+.f-info-links,
+.f-info-socials {
+  width: 100%;
+}
+
+.f-info-socials i {
+  margin-right: 1.5rem;
+  font-size: 1.5rem;
+}
+
+.f-info {
+  text-align: center;
+  height: 10rem; /* Adjust the height to make it more compact */
+  background-color: #ebebeb;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center; /* Center the content vertically */
+  padding: 1rem; /* Add padding for better spacing */
+}
+
+footer {
+  background-color: #ebebeb;
+  padding: 0.2rem;
+  text-align: center;
+  width: 100%;
+  margin-top: auto; /* Push the footer to the bottom */
+}
+
+/* Cards */
+.card {
+  border: none !important;
+  margin-bottom: 2rem;
+  width: 100%; /* Make the card take full width of the column */
+}
+
+.card-img-top {
+  border-radius: 1rem !important;
+  width: 100% !important;
+  height: 25rem; /* Increase the height of the image */
+  object-fit: cover !important;
+}
+
+.card-body {
+  padding: 1.5rem !important; /* Add padding to the card body */
+}
+
+.card-text p {
+  font-weight: 400 !important;
+}
+
+.listing-link {
+  text-decoration: none;
+}
+
+/* Card Effect */
+
+.card-img-overlay {
+  opacity: 0;
+}
+
+.card-img-overlay:hover {
+  opacity: 0.2;
+  background-color: white;
+}
+
+.btns {
+  display: flex;
+}
+
+.edit-btn {
+  background-color: #fe424d !important;
+  border: none !important;
+}
+.show-card {
+  padding-left: 0;
+  padding-right: 0;
+}
